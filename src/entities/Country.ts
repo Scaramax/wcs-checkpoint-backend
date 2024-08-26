@@ -24,4 +24,9 @@ export class Country extends BaseEntity {
     @Field()
     @Column()
     flag: string;
+
+    //Enum for continent
+    @Field()
+    @Column()
+    continent: string;
 }
